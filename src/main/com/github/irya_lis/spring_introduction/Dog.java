@@ -7,6 +7,8 @@ public class Dog extends AbstractPet {
         super(name);
     }
 
+    public Dog() {
+    }
 
     @Override
     public void say() {

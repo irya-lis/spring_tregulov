@@ -5,6 +5,9 @@ import java.io.Serializable;
 abstract public class AbstractPet implements Pet, Serializable {
     private String name;
 
+    public AbstractPet() {
+    }
+
     public AbstractPet(String name) {
         this.name = name;
     }
