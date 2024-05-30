@@ -14,8 +14,7 @@
 
     <bean id="myPerson"
           class="com.github.irya_lis.spring_introduction.Person">
-        <constructor-arg ref="myPet"/>
-
+        <property name="pet" ref="myPet"/>
     </bean>
 
 
