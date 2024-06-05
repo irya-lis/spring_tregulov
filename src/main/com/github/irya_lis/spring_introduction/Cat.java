@@ -2,7 +2,7 @@ package com.github.irya_lis.spring_introduction;
 
 import org.springframework.stereotype.Component;
 
-@Component("catBean")
+//@Component("catBean")
 
 public class Cat extends AbstractPet {
 
