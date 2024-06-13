@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 //@Component("personBean")
 public class Person {
     private Pet pet;
-//    @Value("${person.surname}")
+    @Value("${person.surname}")
     private String surname;
 
     private int age;
