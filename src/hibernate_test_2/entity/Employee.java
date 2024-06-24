@@ -86,4 +86,12 @@ public class Employee {
                 ", salary=" + salary +
                 '}';
     }
+
+    public Detail getEmpDetail() {
+        return empDetail;
+    }
+
+    public void setEmpDetail(Detail empDetail) {
+        this.empDetail = empDetail;
+    }
 }
