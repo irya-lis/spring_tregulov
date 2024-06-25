@@ -6,7 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="spring_tregulov" />
+          <factory-entry name="spring_tregulov" value="bc415d8c-9fcb-4e7e-b7b7-87fc69d2a815" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
