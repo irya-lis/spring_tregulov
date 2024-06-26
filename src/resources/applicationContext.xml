@@ -13,14 +13,6 @@
 
     </bean>
 
-    <bean id="myPerson"
-          class="com.github.irya_lis.spring_introduction.Person">
-        <property name="pet" ref="myPet"/>
-        
-<!--        <property name="surname" value="${person.surname}"/>-->
-        <property name="age" value="${person.age}"/>
-    </bean>
-
 
 
 </beans>
